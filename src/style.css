@@ -1,0 +1,45 @@
+/* BODY */
+body {
+    background-color: rgb(192, 192, 192);
+    margin: 0;
+}
+
+/* NAVBAR */
+.custom-navbar {
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/* SEARCH FORM */
+.custom-form > button {
+    background-color: rgb(95, 11, 190);
+    color: #ffff;
+}
+
+.custom-form > button:hover {
+    border-color: rgb(95, 11, 190);
+    color: rgb(95, 11, 190);
+    background-color: rgb(255, 0, 0);
+}
+
+/* WORD'S LIST */
+.custom-list {
+    background-color: #ffff;
+    height: 100vh;
+    margin: 0 50px 0 50px;
+    padding: 3em;
+}
+
+.custom-list-words {
+    list-style-type: none;
+}
+
+.custom-list-words > li {
+    border: 1px solid #000;
+    margin: 5px;
+    padding: 10px;
+    font-size: 1.5rem;
+}
