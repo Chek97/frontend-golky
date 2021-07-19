@@ -32,6 +32,7 @@ export const SearchBar = () => {
                         type="text"
                         name="search"
                         value={search}
+                        required
                         onChange={handleInputChange} 
                         placeholder="Ingresa una palabra" 
                         aria-label="Search" 
